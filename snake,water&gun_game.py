@@ -13,7 +13,7 @@ while True:
     YourChoice = YourDictionary.get(YourStr)
 
     if YourChoice is None:
-        print("Invalid Input! Please choose from 'snake', 'water', or 'gun'.");
+        print("Invalid Input! Please choose from 'SNAKE', 'WATER', or 'GUN'.");
         continue 
     
     print(f"Your Choice is {YourReverseDictionary[YourChoice]} \nComputer choice is {YourReverseDictionary[ComputerChoice]}")
